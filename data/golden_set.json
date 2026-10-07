@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿Cómo limito cuántas corutinas se ejecutan en simultáneo para no saturar una API?",
+    "documento_id_esperado": "asyncio",
+    "tipo": "semantica"
+  },
+  {
+    "pregunta": "¿Qué hace el parámetro ensure_ascii de json.dumps?",
+    "documento_id_esperado": "json",
+    "tipo": "lexica"
+  },
+  {
+    "pregunta": "¿Cómo guardo el resultado de una función costosa para no recalcularlo cada vez que la llamo con los mismos argumentos?",
+    "documento_id_esperado": "functools",
+    "tipo": "semantica"
+  },
+  {
+    "pregunta": "¿Para qué sirve default_factory en un campo?",
+    "documento_id_esperado": "dataclasses",
+    "tipo": "lexica"
+  },
+  {
+    "pregunta": "¿Cómo busco recursivamente todos los archivos .py dentro de una carpeta y sus subcarpetas?",
+    "documento_id_esperado": "pathlib",
+    "tipo": "semantica"
+  },
+  {
+    "pregunta": "¿Cómo evito que el archivo de logs crezca sin límite hasta llenar el disco?",
+    "documento_id_esperado": "logging",
+    "tipo": "semantica"
+  },
+  {
+    "pregunta": "Para un cálculo que usa mucha CPU, ¿me conviene usar hilos o procesos? ¿Qué rol cumple el GIL?",
+    "documento_id_esperado": "concurrent_futures",
+    "tipo": "mixta"
+  },
+  {
+    "pregunta": "Me aparece 'RuntimeError: asyncio.run() cannot be called from a running event loop' en Jupyter, ¿cómo lo soluciono?",
+    "documento_id_esperado": ["faq_errores_comunes", "asyncio"],
+    "tipo": "lexica"
+  },
+  {
+    "pregunta": "¿Cómo defino una interfaz que acepte cualquier clase con ciertos métodos sin obligarla a heredar?",
+    "documento_id_esperado": "typing",
+    "tipo": "semantica"
+  },
+  {
+    "pregunta": "¿Por qué es un error usar una lista vacía como valor por defecto de un parámetro?",
+    "documento_id_esperado": ["faq_errores_comunes", "dataclasses"],
+    "tipo": "mixta"
+  }
+]

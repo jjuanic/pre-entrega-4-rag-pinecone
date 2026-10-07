@@ -1,0 +1,25 @@
+# Secretos
+.env
+
+# Material de la cursada (no forma parte de la entrega)
+AI_Engineering_Clase_4_RAG_Avanzado_Pinecone.pptx.pdf
+Pista_Pre_entrega_4_Sistema_RAG_escalable_en_la_nube_con_Pinecone.ipynb
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
